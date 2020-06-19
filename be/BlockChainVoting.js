@@ -246,7 +246,7 @@ app.post("/", (req, res) => {
   res.redirect("/");
 });
 app.get("/result", function (req, res) {
-  res.send(hashResult);
+  res.send(myVoteSystem.getVotesCount());
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
