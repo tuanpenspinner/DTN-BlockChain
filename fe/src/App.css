@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.ranking {
+    background-color: rgb(39, 39, 28);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnDownload {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.labelRanking {
+    color: #fff;
+    font-size: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imgNumber1 {
+    width: 20%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.playerRanking1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.playName1 {
+    color: rgb(178, 211, 31);
+}
+
+.playerRanking {
+    width: 60%;
+
+}
+
+.playName {
+    color: rgb(201, 195, 195);
 }
